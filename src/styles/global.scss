@@ -1,0 +1,20 @@
+* {
+	outline: none !important;
+	outline-offset: 0px !important;
+	-webkit-tap-highlight-color: transparent !important;
+	box-shadow: none !important;
+	:focus,
+	:focus-visible,
+	:focus-within {
+		outline: none !important;
+		outline-offset: 0px !important;
+		-webkit-tap-highlight-color: transparent !important;
+		box-shadow: none !important;
+	}
+}
+
+.active {
+	font-weight: bold;
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
